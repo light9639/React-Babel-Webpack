@@ -102,7 +102,7 @@ module.exports = {
 
 ## :zap: src 폴더에 index.html, index.js, App.js 파일 생성
 
-### :zap: index.html
+### :one: index.html
 ```
 <!-- index.html -->
 <!DOCTYPE html>
@@ -120,7 +120,7 @@ module.exports = {
 </html>
 ```
 
-### :zap: index.js
+### :two: index.js
 ```
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -129,7 +129,7 @@ import App from './App';
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-### :zap: App.js
+### :three: App.js
 ```
 import React from 'react';
 
