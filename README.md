@@ -1,39 +1,39 @@
-## package.json 생성
+## :zap: package.json 생성
 ```
 npm init -y
 
 yarn init -y
 ```
 
-## 리액트관련 라이브러리 추가
+## :zap: 리액트관련 라이브러리 추가
 ```
 npm install -D react react-dom
 
 yarn add -D react react-dom
 ```
 
-## 웹팩관련 라이브러리 추가
+## :zap: 웹팩관련 라이브러리 추가
 ```
 npm install -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 
 yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 ```
 
-## 바벨관련 라이브러리 추가
+## :zap: 바벨관련 라이브러리 추가
 ```
 npm install -D @babel/cli @babel/core @babel/preset-env @babel/preset-react
 
 yarn add -D @babel/cli @babel/core @babel/preset-env @babel/preset-react
 ```
 
-## 로더관련 라이브러리 추가
+## :zap: 로더관련 라이브러리 추가
 ```
 npm install -D babel-loader html-loader
 
 yarn add -D babel-loader html-loader
 ```
 
-## babel.config.js 파일 생성
+## :zap: babel.config.js 파일 생성
 ```
 module.exports = {
 	presets: [
@@ -43,7 +43,7 @@ module.exports = {
 }
 ```
 
-## webpack.config.js 파일 생성
+## :zap: webpack.config.js 파일 생성
 ```
 const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
@@ -100,9 +100,9 @@ module.exports = {
 };
 ```
 
-## src 폴더에 index.html, index.js, App.js 파일 생성
+## :zap: src 폴더에 index.html, index.js, App.js 파일 생성
 
-### index.html
+### :zap: index.html
 ```
 <!-- index.html -->
 <!DOCTYPE html>
@@ -120,7 +120,7 @@ module.exports = {
 </html>
 ```
 
-### index.js
+### :zap: index.js
 ```
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -129,7 +129,7 @@ import App from './App';
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-### App.js
+### :zap: App.js
 ```
 import React from 'react';
 
@@ -148,7 +148,7 @@ const App = () => {
 export default App;
 ```
 
-## package.json 파일 수정
+## :zap: package.json 파일 수정
 ```
 "scripts": {
     "build": "webpack",
@@ -156,12 +156,12 @@ export default App;
 }
 ```
 
-## 기타 추가 설치
+## :zap: 기타 추가 설치
 ```
 yarn add -D css-loader style-loader babel-loader sass-loader
 ```
 
-## 실행
+## :zap: 실행
 ```
 yarn start
 ```
