@@ -35,7 +35,7 @@ npm install -D babel-loader html-loader
 yarn add -D babel-loader html-loader
 ```
 
-### :black_nib: babel.config.js 파일 생성 및 수정
+### :tulip: babel.config.js 파일 생성 및 수정
 ```
 module.exports = {
 	presets: [
@@ -45,7 +45,7 @@ module.exports = {
 }
 ```
 
-### :black_nib: webpack.config.js 파일 생성 및 수정
+### :sunflower: webpack.config.js 파일 생성 및 수정
 ```
 const path = require("path");
 const HtmlWebPackPluzn = require("html-webpack-plugin");
@@ -104,7 +104,7 @@ module.exports = {
 
 ## :boom: src 폴더에 index.html, index.js, App.js 파일 생성
 
-### :memo: index.html
+### :four_leaf_clover: index.html
 ```
 <!-- index.html -->
 <!DOCTYPE html>
@@ -122,7 +122,7 @@ module.exports = {
 </html>
 ```
 
-### :memo: index.js
+### :leaves: index.js
 ```
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -131,7 +131,7 @@ import App from './App';
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-### :memo: App.js
+### :herb: App.js
 ```
 import React from 'react';
 
@@ -150,7 +150,7 @@ const App = () => {
 export default App;
 ```
 
-## :black_nib: package.json 파일 수정
+## :sunflower: package.json 파일 수정
 ```
 "scripts": {
     "build": "webpack",
@@ -158,7 +158,7 @@ export default App;
 }
 ```
 
-## :white_check_mark: 기타 추가 설치
+## :rose: 기타 추가 설치
 ```
 yarn add -D css-loader style-loader babel-loader sass-loader
 ```
