@@ -35,7 +35,7 @@ npm install -D babel-loader html-loader
 yarn add -D babel-loader html-loader
 ```
 
-### :black_nib: babel.config.js 파일 생성
+### :black_nib: babel.config.js 파일 생성 및 수정
 ```
 module.exports = {
 	presets: [
@@ -45,7 +45,7 @@ module.exports = {
 }
 ```
 
-### :black_nib: webpack.config.js 파일 생성
+### :black_nib: webpack.config.js 파일 생성 및 수정
 ```
 const path = require("path");
 const HtmlWebPackPluzn = require("html-webpack-plugin");
