@@ -1,40 +1,40 @@
 # :zap: React-Babel-WebPack 설치
-## :zap: package.json 생성
+## :boom: package.json 생성
 ```
 npm init -y
 
 yarn init -y
 ```
 
-## :zap: 리액트관련 라이브러리 추가
+## :heavy_plus_sign: 리액트관련 라이브러리 추가
 ```
 npm install -D react react-dom
 
 yarn add -D react react-dom
 ```
 
-## :zap: 웹팩관련 라이브러리 추가
+## :heavy_plus_sign: 웹팩관련 라이브러리 추가
 ```
 npm install -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 
 yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 ```
 
-## :zap: 바벨관련 라이브러리 추가
+## :heavy_plus_sign: 바벨관련 라이브러리 추가
 ```
 npm install -D @babel/cli @babel/core @babel/preset-env @babel/preset-react
 
 yarn add -D @babel/cli @babel/core @babel/preset-env @babel/preset-react
 ```
 
-## :zap: 로더관련 라이브러리 추가
+## :heavy_plus_sign: 로더관련 라이브러리 추가
 ```
 npm install -D babel-loader html-loader
 
 yarn add -D babel-loader html-loader
 ```
 
-## :zap: babel.config.js 파일 생성
+## :pencil2: babel.config.js 파일 생성
 ```
 module.exports = {
 	presets: [
@@ -44,7 +44,7 @@ module.exports = {
 }
 ```
 
-## :zap: webpack.config.js 파일 생성
+## :pencil2: webpack.config.js 파일 생성
 ```
 const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
@@ -101,9 +101,9 @@ module.exports = {
 };
 ```
 
-## :zap: src 폴더에 index.html, index.js, App.js 파일 생성
+## :boom: src 폴더에 index.html, index.js, App.js 파일 생성
 
-### :one: index.html
+### :memo: index.html
 ```
 <!-- index.html -->
 <!DOCTYPE html>
@@ -121,7 +121,7 @@ module.exports = {
 </html>
 ```
 
-### :two: index.js
+### :memo: index.js
 ```
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -130,7 +130,7 @@ import App from './App';
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-### :three: App.js
+### :memo: App.js
 ```
 import React from 'react';
 
@@ -149,7 +149,7 @@ const App = () => {
 export default App;
 ```
 
-## :zap: package.json 파일 수정
+## :pencil2: package.json 파일 수정
 ```
 "scripts": {
     "build": "webpack",
@@ -157,12 +157,12 @@ export default App;
 }
 ```
 
-## :zap: 기타 추가 설치
+## :arrow_down: 기타 추가 설치
 ```
 yarn add -D css-loader style-loader babel-loader sass-loader
 ```
 
-## :zap: 실행
+## :rocket: 실행
 ```
 yarn start
 ```
