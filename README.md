@@ -1,40 +1,41 @@
 # :zap: React-Babel-WebPack 설치
-## :boom: package.json 생성
+## :boom: 미리 설정할 것들
+### :seedling: package.json 생성
 ```
 npm init -y
 
 yarn init -y
 ```
 
-## :heavy_plus_sign: 리액트관련 라이브러리 추가
+### :four_leaf_clover: 리액트관련 라이브러리 추가
 ```
 npm install -D react react-dom
 
 yarn add -D react react-dom
 ```
 
-## :heavy_plus_sign: 웹팩관련 라이브러리 추가
+### :rose: 웹팩관련 라이브러리 추가
 ```
 npm install -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 
 yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 ```
 
-## :heavy_plus_sign: 바벨관련 라이브러리 추가
+### :leaves: 바벨관련 라이브러리 추가
 ```
 npm install -D @babel/cli @babel/core @babel/preset-env @babel/preset-react
 
 yarn add -D @babel/cli @babel/core @babel/preset-env @babel/preset-react
 ```
 
-## :heavy_plus_sign: 로더관련 라이브러리 추가
+### :herb: 로더관련 라이브러리 추가
 ```
 npm install -D babel-loader html-loader
 
 yarn add -D babel-loader html-loader
 ```
 
-## :pencil2: babel.config.js 파일 생성
+### :black_nib: babel.config.js 파일 생성
 ```
 module.exports = {
 	presets: [
@@ -44,10 +45,10 @@ module.exports = {
 }
 ```
 
-## :pencil2: webpack.config.js 파일 생성
+### :black_nib: webpack.config.js 파일 생성
 ```
 const path = require("path");
-const HtmlWebPackPlugin = require("html-webpack-plugin");
+const HtmlWebPackPluzn = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -149,7 +150,7 @@ const App = () => {
 export default App;
 ```
 
-## :pencil2: package.json 파일 수정
+## :black_nib: package.json 파일 수정
 ```
 "scripts": {
     "build": "webpack",
@@ -157,7 +158,7 @@ export default App;
 }
 ```
 
-## :arrow_down: 기타 추가 설치
+## :white_check_mark: 기타 추가 설치
 ```
 yarn add -D css-loader style-loader babel-loader sass-loader
 ```
