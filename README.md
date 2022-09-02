@@ -1,5 +1,5 @@
 # :zap: React-Babel-WebPack 설치
-<img src="https://raw.githubusercontent.com/light9639/React-Babel-Webpack/main/React-Webpack-Babel.png" alt="React-Webpack-Babel" width="100%">
+<img src="https://raw.githubusercontent.com/light9639/React-Babel-Webpack/main/react-webpack-babel.png" alt="React-Webpack-Babel" width="100%">
 ## :boom: 미리 설정할 것들
 ### :seedling: package.json 생성
 ```
