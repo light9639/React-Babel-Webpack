@@ -1,43 +1,45 @@
 # :zap: React-Babel-WebPack 설치
 <img src="https://raw.githubusercontent.com/light9639/React-Babel-Webpack/main/react-webpack-babel.png" alt="React-Webpack-Babel" width="100%" />
 
-## :boom: 미리 설정할 것들
-### :seedling: package.json 생성
+**:sparkles: React-Babel-WebPack 페이지입니다. :sparkles:**
+
+## 📋 미리 설정할 것들
+### 📦 package.json 생성
 ```
 npm init -y
 
 yarn init -y
 ```
 
-### :four_leaf_clover: 리액트관련 라이브러리 추가
+### :zap: 리액트관련 라이브러리 추가
 ```
 npm install -D react react-dom
 
 yarn add -D react react-dom
 ```
 
-### :rose: 웹팩관련 라이브러리 추가
+### :zap: 웹팩관련 라이브러리 추가
 ```
 npm install -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 
 yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 ```
 
-### :leaves: 바벨관련 라이브러리 추가
+### :zap: 바벨관련 라이브러리 추가
 ```
 npm install -D @babel/cli @babel/core @babel/preset-env @babel/preset-react
 
 yarn add -D @babel/cli @babel/core @babel/preset-env @babel/preset-react
 ```
 
-### :herb: 로더관련 라이브러리 추가
+### :zap: 로더관련 라이브러리 추가
 ```
 npm install -D babel-loader html-loader
 
 yarn add -D babel-loader html-loader
 ```
 
-### :tulip: babel.config.js 파일 생성 및 수정
+### :black_nib: babel.config.js 파일 생성 및 수정
 ```
 module.exports = {
 	presets: [
@@ -47,7 +49,7 @@ module.exports = {
 }
 ```
 
-### :sunflower: webpack.config.js 파일 생성 및 수정
+### :black_nib: webpack.config.js 파일 생성 및 수정
 ```
 const path = require("path");
 const HtmlWebPackPluzn = require("html-webpack-plugin");
@@ -104,9 +106,9 @@ module.exports = {
 };
 ```
 
-## :boom: src 폴더에 index.html, index.js, App.js 파일 생성
+## 📋 src 폴더에 index.html, index.js, App.js 파일 생성
 
-### :four_leaf_clover: index.html
+### :zap: index.html
 ```
 <!-- index.html -->
 <!DOCTYPE html>
@@ -124,7 +126,7 @@ module.exports = {
 </html>
 ```
 
-### :leaves: index.js
+### :zap: index.js
 ```
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -133,7 +135,7 @@ import App from './App';
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-### :herb: App.js
+### :zap: App.js
 ```
 import React from 'react';
 
@@ -152,7 +154,7 @@ const App = () => {
 export default App;
 ```
 
-## :sunflower: package.json 파일 수정
+## :black_nib: package.json 파일 수정
 ```
 "scripts": {
     "build": "webpack",
@@ -160,7 +162,7 @@ export default App;
 }
 ```
 
-## :rose: 기타 추가 설치
+## :pushpin: 기타 추가 설치
 ```
 yarn add -D css-loader style-loader babel-loader sass-loader
 ```
