@@ -3,7 +3,7 @@
 
 **:sparkles: React-Babel-WebPack 페이지입니다. :sparkles:**
 
-## 📋 미리 설정할 것들
+## :zap: 미리 설정할 것들
 ### 📦 package.json 생성
 ```
 npm init -y
@@ -11,34 +11,35 @@ npm init -y
 yarn init -y
 ```
 
-### :zap: 리액트관련 라이브러리 추가
+### 📋 리액트관련 라이브러리 추가
 ```
 npm install -D react react-dom
 
 yarn add -D react react-dom
 ```
 
-### :zap: 웹팩관련 라이브러리 추가
+### 📋 웹팩관련 라이브러리 추가
 ```
 npm install -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 
 yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 ```
 
-### :zap: 바벨관련 라이브러리 추가
+### 📋 바벨관련 라이브러리 추가
 ```
 npm install -D @babel/cli @babel/core @babel/preset-env @babel/preset-react
 
 yarn add -D @babel/cli @babel/core @babel/preset-env @babel/preset-react
 ```
 
-### :zap: 로더관련 라이브러리 추가
+### 📋 로더관련 라이브러리 추가
 ```
 npm install -D babel-loader html-loader
 
 yarn add -D babel-loader html-loader
 ```
 
+## :zap: babel.config.js, webpack.config.js 파일 생성 및 수정
 ### :black_nib: babel.config.js 파일 생성 및 수정
 ```
 module.exports = {
@@ -106,9 +107,9 @@ module.exports = {
 };
 ```
 
-## 📋 src 폴더에 index.html, index.js, App.js 파일 생성
+## :zap: src 폴더에 index.html, index.js, App.js 파일 생성
 
-### :zap: index.html
+### 📋 index.html
 ```
 <!-- index.html -->
 <!DOCTYPE html>
@@ -126,7 +127,7 @@ module.exports = {
 </html>
 ```
 
-### :zap: index.js
+### 📋 index.js
 ```
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -135,7 +136,7 @@ import App from './App';
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-### :zap: App.js
+### 📋 App.js
 ```
 import React from 'react';
 
@@ -162,7 +163,7 @@ export default App;
 }
 ```
 
-## :pushpin: 기타 추가 설치
+## :confetti_ball: 기타 추가 설치
 ```
 yarn add -D css-loader style-loader babel-loader sass-loader
 ```
